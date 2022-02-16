@@ -1,17 +1,179 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="author" content="Pritam Kumar" />
 
     <!--External CSS-->
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style.css" />
 
     <title>Play</title>
 </head>
+
 <body>
-    <h1>Hello</h1>
+    <div class="quiz-dashboard">
+        <div class="side-bar">
+
+            <div class="sidebar-main">
+                <div class="side-bar-header">
+                    <div class="logo">
+                        <h1><a href="/index.html">Quizzie</a></h1>
+                    </div>
+                </div>
+    
+                <div class="sidebar-menu">
+                    <ul>
+                        <a href="/index.html">
+                            <li> <span class="material-icons-outlined sidebar-icon">
+                                    home
+                                </span> Home
+                            </li>
+                        </a>
+                        <a href="">
+                            <li><span class="material-icons-outlined sidebar-icon">
+                                    leaderboard
+                                </span> Leader Board
+                            </li>
+                        </a>
+                        <a href="#categories-section">
+                            <li> <span class="material-icons-outlined sidebar-icon">
+                                    quiz
+                                </span> Quiz
+                            </li>
+                        </a>
+                        <a href="">
+                            <li><span class="material-icons-outlined sidebar-icon">
+                                    contact_support
+                                </span> Help & Support
+                            </li>
+                        </a>
+                    </ul>
+                </div>
+    
+            </div>
+            
+            <div class="sidebar-footer">
+                <a href="" class="logout-link">
+                    <img src="/assets/user.png" class="avatar img-responsive img-rounded avatar-ex-small" alt="user-image" /> <span class="user-name links">Logout </span>
+                </a>
+            </div>
+
+        </div>
+        <div class="main-bar">
+            <!--Navigation start-->
+            <nav class="navigation">
+                <div class="right-side">
+                    <ul class="center">
+                        <li>
+                            <a href="#categories-section" class="links"><button class="btn btn-primary">Start
+                                    Quiz</button></a>
+                        </li>
+                        <li>
+                            <a href="" class="center">
+                                <span class="user-name links">Pritam@123</span><img src="/assets/user.png"
+                                    class="avatar img-responsive img-rounded avatar-ex-small" alt="user-image" /></a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+            <!--Navigation end-->
+
+            <!--User Dashboard Start-->
+            <div class="user-dashboard">
+                <div class="user-profile-Section">
+                    <div class="userimage-wrapper">
+                        <img src="/assets/user.png" style="object-fit: cover" alt="profile-img"
+                            class="avatar img-responsive avatar-ex-lagre user-image" />
+                    </div>
+                    <div class="userbio-wrapper">
+                        <div class="user-info">
+                            <h1>Pritam Kumar 🏆</h1>
+                            <p><span class="user-name">pritam@1234</span></p>
+                            <p class="paragraph bio">
+                                Lorem ipsum, dolor sit amet consectetur adipisicing elit. A,
+                                quisquam.
+                            </p>
+                        </div>
+                        <div class="achievement-wrapper">
+                            <h2 class="sub-headings">Achievement</h2>
+                        </div>
+                    </div>
+                </div>
+                <div class="categories-section" id="categories-section">
+                    <h1 class="Larger-heading section-title">Quiz Categories</h1>
+                    <div class="category-wrapper">
+                        <div class="images-card vertical-card quiz-card">
+                            <img class="card-img" src="/assets/marvel.jpg" />
+                            <div class="card-content">
+                                <h2 class="card-title">Marvel Quiz</h2>
+                                <h3 class="card-author">by Pritam Kumar</h3>
+                                <p class="paragraph quiz-description">
+                                    Visit ten places on our planet that are undergoing the
+                                    biggest changes today.
+                                </p>
+                            </div>
+                            <div class="card-footer">
+                                <div class="card-footer-buttons">
+                                    <button class="btn btn-primary btn-play">Play Now</button>
+                                </div>
+                                <div class="card-footer-icons-wrapper">
+                                    <p class="footer-icon">
+                                        <i class="fas fa-share-alt card-icons"></i>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="images-card vertical-card quiz-card">
+                            <img class="card-img" src="/assets/js.jpg" />
+                            <div class="card-content">
+                                <h2 class="card-title">JavaScript Quiz</h2>
+                                <h3 class="card-author">by Pritam Kumar</h3>
+                                <p class="paragraph quiz-description">
+                                    Visit ten places on our planet that are undergoing the
+                                    biggest changes today.
+                                </p>
+                            </div>
+                            <div class="card-footer">
+                                <div class="card-footer-buttons">
+                                    <button class="btn btn-primary btn-play">Play Now</button>
+                                </div>
+                                <div class="card-footer-icons-wrapper">
+                                    <p class="footer-icon">
+                                        <i class="fas fa-share-alt card-icons"></i>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="images-card vertical-card quiz-card">
+                            <img class="card-img" src="/assets/html.jpg" />
+                            <div class="card-content">
+                                <h2 class="card-title">HTML Quiz</h2>
+                                <h3 class="card-author">by Pritam Kumar</h3>
+                                <p class="paragraph quiz-description">
+                                    Visit ten places on our planet that are undergoing the
+                                    biggest changes today.
+                                </p>
+                            </div>
+                            <div class="card-footer">
+                                <div class="card-footer-buttons">
+                                    <button class="btn btn-primary btn-play">Play Now</button>
+                                </div>
+                                <div class="card-footer-icons-wrapper">
+                                    <p class="footer-icon">
+                                        <i class="fas fa-share-alt card-icons"></i>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--User Dashboard-->
+        </div>
+    </div>
 </body>
+
 </html>
