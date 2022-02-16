@@ -2,14 +2,17 @@
 @import url(./quiz.css);
 @import url(/style.css);
 
- 
-.correct-ans{
-    background-color: var(--correct-ans);
+.correct-ans {
+  color: var(--text-white);
+  border: 1px solid var(--correct-ans);
+  background-color: var(--correct-ans);
 }
 
-.wrong-ans{
-    background-color: var(--wrong-ans);
+.wrong-ans {
+  color: var(--text-white);
+  border: 1px solid var(--wrong-ans);
+  background-color: var(--wrong-ans);
 }
-.q-list{
-    font-family: var(--small-text);
+.q-list {
+  font-family: var(--small-text);
 }

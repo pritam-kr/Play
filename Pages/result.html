@@ -2,155 +2,136 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="author" content="Pritam Kumar" />
 
     <!--External CSS-->
-    <link rel="stylesheet" href="/CSS/quiz.css">
-    <title>Quiz</title>
+    <link rel="stylesheet" href="/CSS/result.css" />
+
+    <title>Result</title>
 </head>
 
 <body>
-    <!DOCTYPE html>
-    <html lang="en">
+    <div class="quiz-dashboard">
+        <div class="side-bar">
 
-    <head>
-        <meta charset="UTF-8" />
-        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <meta name="author" content="Pritam Kumar" />
-
-        <!--External CSS-->
-        <link rel="stylesheet" href="/CSS/result.css" />
-
-        <title>Result</title>
-    </head>
-
-    <body>
-        <div class="quiz-dashboard">
-            <div class="side-bar">
-
-                <div class="sidebar-main">
-                    <div class="side-bar-header">
-                        <div class="logo">
-                            <h1><a href="/index.html">Quizzie</a></h1>
-                        </div>
+            <div class="sidebar-main">
+                <div class="side-bar-header">
+                    <div class="logo">
+                        <h1><a href="/index.html">Quizzie</a></h1>
                     </div>
-
-                    <div class="sidebar-menu">
-                        <ul>
-                            <a href="/index.html">
-                                <li> <span class="material-icons-outlined sidebar-icon">
-                                        home
-                                    </span> Home
-                                </li>
-                            </a>
-                            <a href="">
-                                <li><span class="material-icons-outlined sidebar-icon">
-                                        leaderboard
-                                    </span> Leader Board
-                                </li>
-                            </a>
-                            <a href="/index.html">
-                                <li> <span class="material-icons-outlined sidebar-icon">
-                                        quiz
-                                    </span> Quiz
-                                </li>
-                            </a>
-                            <a href="">
-                                <li><span class="material-icons-outlined sidebar-icon">
-                                        contact_support
-                                    </span> Help & Support
-                                </li>
-                            </a>
-                        </ul>
-                    </div>
-
                 </div>
 
-                <div class="sidebar-footer">
-                    <a href="" class="logout-link">
-                        <img src="/assets/user.png" class="avatar img-responsive img-rounded avatar-ex-small"
-                            alt="user-image" /> <span class="user-name links">Logout </span>
-                    </a>
-                </div>
-
-            </div>
-            <div class="main-bar">
-                <!--Navigation start-->
-                <nav class="navigation">
-                    <div class="right-side">
-                        <ul class="center">
-                            <li>
-                                <a href="" class="center">
-                                    <span class="user-name links">Pritam@123</span><img src="/assets/user.png"
-                                        class="avatar img-responsive img-rounded avatar-ex-small"
-                                        alt="user-image" /></a>
+                <div class="sidebar-menu">
+                    <ul>
+                        <a href="/index.html">
+                            <li> <span class="material-icons-outlined sidebar-icon">
+                                    home
+                                </span> Home
                             </li>
-                        </ul>
+                        </a>
+                        <a href="">
+                            <li><span class="material-icons-outlined sidebar-icon">
+                                    leaderboard
+                                </span> Leader Board
+                            </li>
+                        </a>
+                        <a href="/index.html">
+                            <li> <span class="material-icons-outlined sidebar-icon">
+                                    quiz
+                                </span> Quiz
+                            </li>
+                        </a>
+                        <a href="">
+                            <li><span class="material-icons-outlined sidebar-icon">
+                                    contact_support
+                                </span> Help & Support
+                            </li>
+                        </a>
+                    </ul>
+                </div>
+
+            </div>
+
+            <div class="sidebar-footer">
+                <a href="" class="logout-link">
+                    <img src="/assets/user.png" class="avatar img-responsive img-rounded avatar-ex-small"
+                        alt="user-image" /> <span class="user-name links">Logout </span>
+                </a>
+            </div>
+
+        </div>
+        <div class="main-bar">
+            <!--Navigation start-->
+            <nav class="navigation">
+                <div class="right-side">
+                    <ul class="center">
+                        <li>
+                            <a href="" class="center">
+                                <span class="user-name links">Pritam@123</span><img src="/assets/user.png"
+                                    class="avatar img-responsive img-rounded avatar-ex-small"
+                                    alt="user-image" /></a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+            <!--Navigation end-->
+
+            <!--User Dashboard Start-->
+            <div class="user-dashboard">
+                <!--User Profile start-->
+                <div class="user-profile-Section">
+                    <div class="userimage-wrapper">
+                        <img src="/assets/user.png" style="object-fit: cover" alt="profile-img"
+                            class="avatar img-responsive avatar-ex-lagre user-image" />
                     </div>
-                </nav>
-                <!--Navigation end-->
-
-                <!--User Dashboard Start-->
-                <div class="user-dashboard">
-                    <!--User Profile start-->
-                    <div class="user-profile-Section">
-                        <div class="userimage-wrapper">
-                            <img src="/assets/user.png" style="object-fit: cover" alt="profile-img"
-                                class="avatar img-responsive avatar-ex-lagre user-image" />
+                    <div class="userbio-wrapper">
+                        <div class="user-info">
+                            <h1>Pritam Kumar 🏆</h1>
+                            <p><span class="user-name">pritam@1234</span></p>
+                            <p class="paragraph bio">
+                                Lorem ipsum, dolor sit amet consectetur adipisicing elit. A,
+                                quisquam.
+                            </p>
                         </div>
-                        <div class="userbio-wrapper">
-                            <div class="user-info">
-                                <h1>Pritam Kumar 🏆</h1>
-                                <p><span class="user-name">pritam@1234</span></p>
-                                <p class="paragraph bio">
-                                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. A,
-                                    quisquam.
-                                </p>
-                            </div>
-                            <div class="achievement-wrapper">
-                                <h2 class="sub-headings">Achievement</h2>
-                            </div>
-                        </div>
-                    </div>
-                    <!--User Profile end-->
-
-                    <div class="categories-section" id="categories-section">
-                        <h1 class="Larger-heading section-title space-between">Result <span class="timer text-md Total-score">Total Score: 25/50</span></h1>
-                        
-                        <div class="question-wrapper">
-
-                            <h2 class="question-title"> Q1. What is the name of Thor’s hammer?</h2>
-
-                            <ul class="q-list-wrapper">
-                                <li class="q-list"><label>a. Vanir </label></li>
-                                <li class="q-list correct-ans"><label>b. Mjolnir</label></li>
-                                <li class="q-list"><label>c. Aesir</label></li>
-                                <li class="q-list wrong-ans"><label>d. Norn</label></li>
-                            </ul>
-
-                            <h2 class="question-title">Q2. What is Captain America’s shield made of? </h2>
-                            <ul class="q-list-wrapper">
-                                <li class="q-list"> <label>a. Adamantium</label></li>
-                                <li class="q-list correct-ans"> <label>b. Vibranium</label></li>
-                                <li class="q-list wrong-ans"> <label>c. Promethium</label></li>
-                                <li class="q-list"><label>d. Carbonadium</label></li>
-                            </ul>
-
-                        </div>
-                        <div class="btn-wrapper">
-                              <a href="/index.html"> <button class="btn btn-secondary">Play Again</button> </a>
+                        <div class="achievement-wrapper">
+                            <h2 class="sub-headings">Achievement</h2>
                         </div>
                     </div>
                 </div>
-                <!--User Dashboard-->
+                <!--User Profile end-->
+
+                <div class="categories-section" id="categories-section">
+                    <h1 class="Larger-heading section-title space-between">Result <span class="timer text-md Total-score">Total Score: 25/50</span></h1>
+                    
+                    <div class="question-wrapper">
+
+                        <h2 class="question-title"> Q1. What is the name of Thor’s hammer?</h2>
+
+                        <ul class="q-list-wrapper">
+                            <li class="q-list"><label>a. Vanir </label></li>
+                            <li class="q-list correct-ans"><label>b. Mjolnir</label></li>
+                            <li class="q-list"><label>c. Aesir</label></li>
+                            <li class="q-list wrong-ans"><label>d. Norn</label></li>
+                        </ul>
+
+                        <h2 class="question-title">Q2. What is Captain America’s shield made of? </h2>
+                        <ul class="q-list-wrapper">
+                            <li class="q-list"> <label>a. Adamantium</label></li>
+                            <li class="q-list correct-ans"> <label>b. Vibranium</label></li>
+                            <li class="q-list wrong-ans"> <label>c. Promethium</label></li>
+                            <li class="q-list"><label>d. Carbonadium</label></li>
+                        </ul>
+
+                    </div>
+                    <div class="btn-wrapper">
+                          <a href="/index.html"> <button class="btn btn-primary">Play Again</button> </a>
+                    </div>
+                </div>
             </div>
+            <!--User Dashboard-->
         </div>
-    </body>
-
-    </html>
+    </div>
 </body>
-
-</html>
