@@ -1,1 +1,134 @@
 @import url(./CSS/common.css);
+
+.quiz-dashboard {
+  min-height: 100vh;
+  display: flex;
+}
+
+.side-bar {
+  border-right: 1px solid var(--border-color);
+  background-color: #fff;
+  position: fixed;
+  bottom: 0;
+  top: 0;
+  width: 28rem;
+  height: 100%;
+  padding: 1rem 2rem 4rem 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.side-bar-header {
+  text-align: left;
+  min-height: 7rem;
+  padding: 1rem 0;
+}
+
+.sidebar-menu ul li {
+  font-size: 1.8rem;
+  font-weight: 500;
+  font-family: var(--heading-font);
+  display: flex;
+  align-items: center;
+  color: var(--headings-color);
+  margin-bottom: 1rem;
+}
+
+.sidebar-icon {
+  color: var(--primary-color);
+  margin-right: 1rem;
+}
+
+
+.sidebar-footer .logout-link{
+   display: flex;
+   align-items: center;
+   
+}
+.sidebar-footer .user-name{
+  text-transform: capitalize;
+}
+.main-bar {
+  width: 100%;
+  margin-left: 28rem;
+}
+
+.navigation {
+  justify-content: flex-end;
+  min-height: 7rem;
+  border: 0;
+  background-color: #fff;
+}
+
+.navigation ul li {
+  margin: 0 1rem;
+}
+
+.right-side {
+}
+
+.user-dashboard {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin: 1.5rem;
+}
+
+.user-profile-Section {
+  background-color: #ffffff;
+  display: flex;
+  gap: 10px;
+  border-radius: 10px;
+  padding: 2rem;
+}
+.user-image {
+  border-radius: 20px;
+}
+
+.avatar-ex-lagre {
+  width: 15rem;
+  height: 15rem;
+}
+/* .userimage-wrapper{
+} */
+
+.userbio-wrapper {
+  padding: 1.5rem;
+}
+
+.bio {
+  margin-top: 1rem;
+}
+
+.achievement-wrapper {
+  margin: 1rem 0;
+}
+
+.categories-section {
+  border-radius: 10px;
+  padding: 2rem;
+  background-color: #fff;
+}
+.category-wrapper {
+  display: grid;
+  gap: 10px;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+}
+
+.quiz-card {
+  border: 1px solid var(--border-color);
+  border-radius: 10px;
+  padding: 1rem;
+  width: 100%;
+  box-shadow: none;
+  background-color: #fff;
+  max-width: fit-content;
+}
+
+.quiz-name {
+  margin-bottom: 1rem;
+}
+.quiz-description {
+  margin-top: 1rem;
+}
