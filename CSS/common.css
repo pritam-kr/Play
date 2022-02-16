@@ -1,0 +1,35 @@
+/*---font for small text---*/
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&display=swap");
+/*--- font for headings---*/
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500&display=swap");
+/*--font-awesome---*/
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --heading-font: "Poppins", sans-serif;
+  --small-text: "Open Sans", sans-serif;
+  --headings-color: #282828;
+  --text-color: #353535f3;
+  --background-color: #f7f7f7;
+  --primary-color: #0e72c9;
+  --primary-hover: #0662b3;
+  --footer-background: #00000015;
+  --box-shadow: 0px 0px 10px 4px #00000015;
+  --smooth-shadow: 0.9px 2.8px 4.2px #00000067, 2.2px 6.7px 5.3px #0000005d,
+    4.1px 12.5px 10px #00000009, 7.4px 22.3px 17.9px #0000000b,
+    13.8px 41.8px 33.4px #0000000d, 33px 100px 80px #00000012;
+}
+
+html{
+    font-size: 62.5%;
+}
+
+body{
+    background-color: var(--background-color);
+}
