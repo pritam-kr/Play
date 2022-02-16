@@ -1,0 +1,23 @@
+@import url(./common.css);
+@import url(/style.css);
+
+.navigation{
+    justify-content: space-between;
+    padding: 0 3rem;
+}
+.container{
+    width: 100%;
+    min-height: 88vh;
+}
+
+.form{
+    background-color: #fff;
+}
+
+.forgot-password{
+    margin-top: 1rem;
+}
+
+.forgot-password a{
+    color: var(--text-color);
+}
