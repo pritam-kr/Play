@@ -1,0 +1,28 @@
+@import url(./rule.css);
+.question-title{
+    font-size: 1.6rem;
+}
+.q-list-wrapper{
+    padding: 0rem;
+    max-width: 45rem;
+    margin: 2rem 0;
+}
+.q-list{
+    background-color: var(--primary-color);
+    border-radius: 20px;
+    margin-bottom: 0.8rem;
+    color: #fff;
+    min-height: 4rem;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    font-size: 1.4rem;
+    cursor: pointer;
+    transition: 0.2s all;
+}
+.q-list:hover{
+    background-color: var(--primary-hover);
+}
+.q-list label{
+    margin: 0 1.5rem;
+}
