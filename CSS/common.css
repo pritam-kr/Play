@@ -34,6 +34,13 @@
     13.8px 41.8px 33.4px #0000000d, 33px 100px 80px #00000012;
   --border-color: #0000001f;
   --user-name-color: #353535a4;
+  --correct-ans: #0e800e;
+  --wrong-ans: #e23e3e;
+}
+
+
+.margin-r{
+  margin-right: 1rem;
 }
 
 h1,

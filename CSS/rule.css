@@ -1,0 +1,14 @@
+@import url(./CSS/common.css);
+@import url('/style.css');
+
+.rules{
+    margin: 2rem 0 2rem 2rem;
+}
+
+.rule-list{
+    list-style-type: circle;
+    font-size: 1.8rem;
+    margin-bottom: 0.5rem;
+}
+
+ 

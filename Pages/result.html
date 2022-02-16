@@ -7,7 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <!--External CSS-->
-    <link rel="stylesheet" href="/CSS/rule.css">
+    <link rel="stylesheet" href="/CSS/quiz.css">
     <title>Quiz</title>
 </head>
 
@@ -22,9 +22,9 @@
         <meta name="author" content="Pritam Kumar" />
 
         <!--External CSS-->
-        <link rel="stylesheet" href="style.css" />
+        <link rel="stylesheet" href="/CSS/result.css" />
 
-        <title>Play</title>
+        <title>Result</title>
     </head>
 
     <body>
@@ -52,7 +52,7 @@
                                     </span> Leader Board
                                 </li>
                             </a>
-                            <a href="#categories-section">
+                            <a href="/index.html">
                                 <li> <span class="material-icons-outlined sidebar-icon">
                                         quiz
                                     </span> Quiz
@@ -95,6 +95,7 @@
 
                 <!--User Dashboard Start-->
                 <div class="user-dashboard">
+                    <!--User Profile start-->
                     <div class="user-profile-Section">
                         <div class="userimage-wrapper">
                             <img src="/assets/user.png" style="object-fit: cover" alt="profile-img"
@@ -114,18 +115,33 @@
                             </div>
                         </div>
                     </div>
+                    <!--User Profile end-->
+
                     <div class="categories-section" id="categories-section">
-                        <h1 class="Larger-heading section-title">Quiz Rules</h1>
-                        <ul class="rules">
-                            <li class="rule-list">The Total number of question is Five.</li>
-                            <li class="rule-list">Each question is of Five point.</li>
-                            <li class="rule-list">You'll get One minute to answer all questions.</li>
-                            <li class="rule-list">If you gives all answered correctly. You'll be get Money Prize.</li>
-                            <li class="rule-list">If you're not score 50% of question. You'll be kick out.</li>
-                        </ul>
+                        <h1 class="Larger-heading section-title space-between">Result <span class="timer text-md Total-score">Total Score: 25/50</span></h1>
                         
-                        <div class="rules-btn-wrapper">
-                            <a href="/index.html"> <button class="btn btn-secondary margin-r">Back</button> </a><a href="/Pages/Marvel/q1.html"><button class="btn btn-primary">Start</button></a>
+                        <div class="question-wrapper">
+
+                            <h2 class="question-title"> Q1. What is the name of Thor’s hammer?</h2>
+
+                            <ul class="q-list-wrapper">
+                                <li class="q-list"><label>a. Vanir </label></li>
+                                <li class="q-list correct-ans"><label>b. Mjolnir</label></li>
+                                <li class="q-list"><label>c. Aesir</label></li>
+                                <li class="q-list wrong-ans"><label>d. Norn</label></li>
+                            </ul>
+
+                            <h2 class="question-title">Q2. What is Captain America’s shield made of? </h2>
+                            <ul class="q-list-wrapper">
+                                <li class="q-list"> <label>a. Adamantium</label></li>
+                                <li class="q-list correct-ans"> <label>b. Vibranium</label></li>
+                                <li class="q-list wrong-ans"> <label>c. Promethium</label></li>
+                                <li class="q-list"><label>d. Carbonadium</label></li>
+                            </ul>
+
+                        </div>
+                        <div class="btn-wrapper">
+                              <a href="/index.html"> <button class="btn btn-secondary">Play Again</button> </a>
                         </div>
                     </div>
                 </div>
