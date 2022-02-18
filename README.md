@@ -30,23 +30,23 @@ Quizzie a online quiz platform to play some quizzes on random topic.
 
 ### Screens<br><br>
 
-#### Home 
+#### [Home](https://quizzie-by-pritam.netlify.app/)
 ![home](/assets/home.png)
 
-#### Quiz
+#### [Quiz](https://quizzie-by-pritam.netlify.app/pages/marvel/q1)
 ![quiz](/assets/q2.png)
 
-#### Rule
+#### [Rule](https://quizzie-by-pritam.netlify.app/pages/rules)
 ![rule](/assets/rules.png)
 
-#### Result
+#### [Result](https://quizzie-by-pritam.netlify.app/pages/result)
 ![result](/assets/result.png)
 
-#### Signup
+#### [Signup](https://quizzie-by-pritam.netlify.app/pages/signup)
 ![signup](/assets/signup.png)
 
-#### Login
+#### [Login](https://quizzie-by-pritam.netlify.app/pages/login)
 ![login](/assets/login.png)
 
-#### Forgot
+#### [Forgot](https://quizzie-by-pritam.netlify.app/pages/reset)
 ![forgot](/assets/forgot.png)
