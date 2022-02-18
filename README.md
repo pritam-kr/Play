@@ -10,7 +10,7 @@ Quizzie a online quiz platform to play some quizzes on random topic.
 
 ### Features
 
-- Users can Login, Signup, Forgot 
+- Users can Login, Signup, Forgot Password
 - User profile
 - Different quiz categories
 - Leader board for winner
