@@ -56,7 +56,7 @@
   justify-content: flex-end;
   min-height: 7rem;
   border: 0;
-  background-color: #fff;
+  background-color: var(--white-color);
 }
 
 .navigation ul li {
@@ -71,7 +71,7 @@
 }
 
 .user-profile-Section {
-  background-color: #ffffff;
+  background-color: var(--white-color);
   display: flex;
   gap: 10px;
   border-radius: 10px;
@@ -103,7 +103,7 @@
 .categories-section {
   border-radius: 10px;
   padding: 2rem;
-  background-color: #fff;
+  background-color: var(--white-color);
 }
 .category-wrapper {
   display: grid;
@@ -117,7 +117,7 @@
   padding: 1rem;
   width: 100%;
   box-shadow: none;
-  background-color: #fff;
+  background-color: var(--white-color);
   max-width: fit-content;
 }
 
